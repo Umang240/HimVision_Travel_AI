@@ -4,9 +4,9 @@
 
 ## Overview
 
-HimVision Travel AI is an AI-powered travel assistant that helps users plan trips, discover destinations, assess travel safety, and generate personalized itineraries using Google's Gemini AI.
+HimVision Travel AI is an AI-powered travel assistant that helps users plan trips, discover destinations, assess travel safety, and generate personalized itineraries using the Google Gemini API.
 
-The project is being developed as a **Single AI Agent MVP** and is designed to evolve into a **Multi-Agent Agentic AI Platform** using Google's Agent Development Kit (ADK).
+The project is being developed as a **Single AI Agent MVP** and is designed to evolve into a **Multi-Agent Agentic AI Platform** using Google ADK and Vertex AI as part of the future roadmap.
 
 ---
 
@@ -46,14 +46,15 @@ HimVision Travel AI provides an intelligent travel assistant that:
 - FastAPI
 - Python
 
-### Database
-- PostgreSQL
+### Production Database
+- Cloud SQL (PostgreSQL)
 
 ### AI
 - Google Gemini API
 
-### Cloud
-- Google Cloud Run
+### Deployment
+- Google Cloud Run (Backend deployment)
+- Firebase Hosting (Frontend hosting)
 
 ---
 
@@ -75,8 +76,8 @@ presentation/
 - Weather Intelligence
 - Route Optimization
 - Google Maps Integration
-- Multi-Agent AI using Google ADK
-- Predictive Travel Analytics
+- Multi-Agent AI using Vertex AI & ADK
+- Predictive Travel Analytics with BigQuery
 
 ---
 
